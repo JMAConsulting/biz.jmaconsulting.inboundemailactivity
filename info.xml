@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <extension key="biz.jmaconsulting.inboundemailactivity" type="module">
   <file>inboundemailactivity</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>Inbound Email Activity</name>
+  <description>This extension modifies the 'Inbound Activity' contact parameters by setting 'With contact' to 'From' contact of the incoming email</description>
   <license>AGPL-3.0</license>
   <maintainer>
-    <author>Monish Deb</author>
-    <email>monish.deb@jmaconsulting.biz</email>
+    <author>JMA Consulting</author>
+    <email>support@jmaconsulting.biz</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/JMAConsulting/biz.jmaconsulting.inboundemailactivity</url>
+    <url desc="Documentation">https://github.com/JMAConsulting/biz.jmaconsulting.inboundemailactivity/blob/master/README.md</url>
+    <url desc="Support">https://github.com/JMAConsulting/biz.jmaconsulting.inboundemailactivity/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2021-04-05</releaseDate>
@@ -20,7 +20,7 @@
   <compatibility>
     <ver>5.0</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>This extension modifies the 'Inbound Activity' contact parameters by setting 'With contact' to 'From' contact of the incoming email</comments>
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
   </classloader>
