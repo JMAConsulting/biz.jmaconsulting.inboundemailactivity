@@ -144,7 +144,7 @@ function inboundemailactivity_civicrm_themes(&$themes) {
 }
 
 function inboundemailactivity_civicrm_pre($op, $objectName, $id, &$params) {
-  if ($objectName === 'Activity' && $op === 'create' && $params['activity_type_id'] === CRM_Core_PseudoConstant::getKey('CRM_Core_BAO_Activity', 'activity_type_id', 'Inbound Email')) {
+  if ($objectName === 'Activity' && $op === 'create' && $params['activity_type_id'] === CRM_Core_PseudoConstant::getKey('CRM_Activity_BAO_Activity', 'activity_type_id', 'Inbound Email')) {
     // Take the first target contact originally set in deprecated_activity_buildmailparams which would have been the to line.
     $params['target_contact_id'] = [$params['source_contact_id']];
     unset($params['assignee_contact_id']);
